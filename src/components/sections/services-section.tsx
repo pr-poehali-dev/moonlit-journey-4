@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Возможности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Характеристики часов</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Водонепроницаемость",
+              description: "Защита до 50 метров глубины — плавайте, занимайтесь спортом и попадайте под дождь без ограничений",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Ударопрочность",
+              description: "Усиленный корпус и сапфировое стекло выдерживают любые нагрузки активной жизни",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Умные функции",
+              description: "Мониторинг пульса, шагомер, уведомления со смартфона и управление музыкой",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Долгий заряд",
+              description: "До 7 дней без подзарядки — часы работают столько же, сколько и вы",
               direction: "bottom",
             },
           ].map((service, i) => (
