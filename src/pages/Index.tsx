@@ -287,13 +287,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="absolute bottom-16 right-8 hidden animate-in fade-in duration-1000 delay-400 md:right-16 md:block lg:right-24">
-            <img
-              src="https://cdn.poehali.dev/projects/69034c73-69c5-4076-8352-fc090abc4a5a/files/1088dc97-4684-48be-9801-612c0df382c8.jpg"
-              alt="ChronoX цифровые часы"
-              className="h-96 w-96 object-contain opacity-95 drop-shadow-2xl lg:h-[480px] lg:w-[480px]"
-            />
-          </div>
+
 
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-in fade-in duration-1000 delay-500">
             <div className="flex items-center gap-2">
