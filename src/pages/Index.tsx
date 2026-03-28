@@ -287,7 +287,28 @@ export default function Index() {
             </div>
           </div>
 
+          <div className="absolute right-0 top-0 hidden h-full w-[45%] md:flex items-center justify-center pointer-events-none">
+            <div className="watch-float" style={{
+              filter: 'drop-shadow(-20px 30px 40px rgba(0,0,0,0.9)) drop-shadow(0px 0px 60px rgba(180,30,30,0.15))',
+              transform: 'perspective(800px) rotateY(-8deg) rotateX(3deg)',
+            }}>
+              <img
+                src="https://cdn.poehali.dev/projects/69034c73-69c5-4076-8352-fc090abc4a5a/bucket/3b59f660-46c9-4809-bace-d89e6c0c873d.png"
+                alt="ChronoX часы"
+                className="w-full max-w-[520px] object-contain animate-in fade-in duration-1000 delay-400"
+              />
+            </div>
+          </div>
 
+          <style>{`
+            .watch-float {
+              animation: watchFloat 4s ease-in-out infinite;
+            }
+            @keyframes watchFloat {
+              0%, 100% { transform: perspective(800px) rotateY(-8deg) rotateX(3deg) translateY(0px); }
+              50% { transform: perspective(800px) rotateY(-8deg) rotateX(3deg) translateY(-16px); }
+            }
+          `}</style>
 
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-in fade-in duration-1000 delay-500">
             <div className="flex items-center gap-2">
